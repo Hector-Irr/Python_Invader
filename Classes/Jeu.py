@@ -66,14 +66,14 @@ class Jeu():
         self.vieaffi=Label(self.tk,textvariable=self.vie,font=("Helvetica",15))
         self.vieaffi.grid(row=2,column=1,)
          
-
+ 
          
        
-   
+  
     def debut(self):  
         self.tk.mainloop() 
 
-
+#on lance le jeu quand le joueur appuie sur start
     def lancement(self): 
 
         self.start.grid_forget()
