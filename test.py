@@ -8,7 +8,7 @@ To Do: Mouvement, tirs, score, vies, menu, enemi bonus, formes complexes
 from tkinter import *
 from random import *
 
-
+#Ce fichier est celui sur lequel je fais des tests et où il y a certaines idées que j'ai eues mais qui n'ont pas abouties
 class Joueur():
     def __init__(self,x,y):
         self.x=x
